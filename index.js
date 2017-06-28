@@ -1,8 +1,8 @@
 const util = require('util')
 const EventEmitter = require('events').EventEmitter
-const Transaction = require('ethereumjs-tx')
-const Block = require('ethereumjs-block')
-const ethUtil = require('ethereumjs-util')
+const Transaction = require('expansejs-tx')
+const Block = require('expansejs-block')
+const ethUtil = require('expansejs-util')
 const rlp = ethUtil.rlp
 
 const OFFSET = 0x10

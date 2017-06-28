@@ -1,7 +1,7 @@
 {
-  "name": "devp2p-eth",
+  "name": "devp2p-exp",
   "version": "0.0.0",
-  "description": "A javascript libary implementing the Ethereum subprotocol over RLPx",
+  "description": "A javascript libary implementing the Expanse subprotocol over RLPx",
   "main": "index.js",
   "scripts": {
     "test": " tape ./test/*.js",
@@ -12,24 +12,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereumjs/node-devp2p-eth.git"
+    "url": "https://github.com/expansejs/node-devp2p-exp.git"
   },
   "keywords": [
     "ethereum",
+    "expanse",
     "p2p",
     "networking"
   ],
   "author": "mjbecze",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/ethereumjs/node-devp2p-eth/issues"
+    "url": "https://github.com/expansejs/node-devp2p-exp/issues"
   },
-  "homepage": "https://github.com/ethereumjs/node-devp2p-eth",
+  "homepage": "https://github.com/expansejs/node-devp2p-exp",
   "dependencies": {
     "async": "^1.4.2",
-    "ethereumjs-block": "^1.2.0",
-    "ethereumjs-tx": "^0.6.10",
-    "ethereumjs-util": "^2.5.0"
+    "expansejs-block": "^1.2.0",
+    "expansejs-tx": "^0.6.10",
+    "expansejs-util": "^2.5.0"
   },
   "devDependencies": {
     "coveralls": "^2.11.6",
